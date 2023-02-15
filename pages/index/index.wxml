@@ -2,25 +2,25 @@
 <view class="head">
   <van-row>
     <van-col span="22">
-      <view style="display: flex;justify-content: space-evenly;">
+      <view style="display: flex;justify-content: space-evenly;color: #6daa07;">
         <text>早上好，张三</text>
       </view>
     </van-col>
     <van-col span="2">
-      <van-icon name="more-o" color="#fff" info="27"/>
+      <van-icon name="more-o" color="#6daa07" info="27"/>
     </van-col>
   </van-row>
 </view>
 <!-- 轮播图 -->
 <swiper indicator-active-color="green" indicator-dots="true" autoplay="true" interval="2000" indicator-color="white" style="height:250rpx;">
   <swiper-item>
-    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+    <image src="../images/pic1.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
   </swiper-item>
   <swiper-item>
-    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+    <image src="../images/pic3.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
   </swiper-item>
   <swiper-item>
-    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+    <image src="../images/pic4.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
   </swiper-item>
 </swiper>
 <!-- 头部功能列表 -->

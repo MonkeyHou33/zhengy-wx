@@ -8,9 +8,9 @@
     "pages/me/me"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
+    "backgroundColor": "#272a3b",
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#008000",
+    "navigationBarBackgroundColor": "#272a3b",
     "navigationBarTitleText": "正也，小程序",
     "navigationBarTextStyle": "white"
   },
