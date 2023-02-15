@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/always/always",
+    "pages/assistant/assistant",
+    "pages/analysis/analysis",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#008000",
+    "navigationBarTitleText": "正也，小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "工作",
+        "iconPath": "/img/income.png",
+        "selectedIconPath": "/img/income-select.png"
+      },
+      {
+        "pagePath": "pages/assistant/assistant",
+        "text": "助手",
+        "iconPath": "/img/chart.png",
+        "selectedIconPath": "/img/chart-select.png"
+      },
+      {
+        "pagePath": "pages/always/always",
+        "text": "常用",
+        "iconPath": "/img/post.png",
+        "selectedIconPath": "/img/post-select.png"
+      },
+      {
+        "pagePath": "pages/analysis/analysis",
+        "text": "分析",
+        "iconPath": "/img/message.png",
+        "selectedIconPath": "/img/message-select.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "/img/home.png",
+        "selectedIconPath": "/img/home-select.png"
+      }
+    ],
+    "color": "#515151",
+    "selectedColor": "#DAA520",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "vant-button":"@vant/weapp/button/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "van-row": "@vant/weapp/row/index",
+    "van-col": "@vant/weapp/col/index"
+  }
+}

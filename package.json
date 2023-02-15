@@ -1,0 +1,24 @@
+{
+  "name": "zhengy-wx",
+  "version": "1.0.0",
+  "description": "\"# zhengy-wx\"",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonkeyHou33/zhengy-wx.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonkeyHou33/zhengy-wx/issues"
+  },
+  "homepage": "https://github.com/MonkeyHou33/zhengy-wx#readme",
+  "dependencies": {
+    "@vant/weapp": "^1.10.13",
+    "miniprogram-sm-crypto": "^0.3.12"
+  }
+}

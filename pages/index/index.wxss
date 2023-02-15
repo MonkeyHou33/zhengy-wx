@@ -1,0 +1,135 @@
+page {
+  background-color: #f3f3f3;
+}
+.head {
+  line-height: 80rpx;
+  height: 80rpx;
+  background-color: green;
+}
+swiper {
+  width: 100%;
+  /* overflow: hidden; */
+}
+.auto-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding-bottom: 10rpx;
+}
+.body > text {
+  text-align: center;
+  font-size: 24rpx;
+}
+.body > image { 
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+.containerList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  margin-top:20rpx;
+}
+.bodyList {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  padding-top: 10px;
+  border-right:solid 1rpx #000;
+  border-bottom:solid 1rpx #000
+}
+.bodyList > text {
+  text-align: center;
+  font-size: 30rpx;
+}
+.bodyList > image { 
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+.popup-box{
+  position: absolute;
+  z-index: 99;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+.info-center{
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+  /* display: flex;
+  align-items: flex-start;
+  justify-content: center; */
+  border-radius: 10rpx;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.row-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: aqua;
+  border-radius: 10rpx 10rpx 0rpx 0rpx;
+}
+.functionArray {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-top: 20rpx;
+  margin-top:20rpx;
+  padding-bottom: 20rpx;
+  border-radius: 10rpx;
+}
+.functionList {
+  display: flex;
+  flex-direction: column;
+  width: 24%;
+  padding-top:10rpx;
+  padding-bottom: 10rpx
+}
+.functionList > text {
+  text-align: center;
+  font-size: 30rpx;
+}
+.functionList > image { 
+  width: 80rpx;
+  height: 80rpx;
+  margin: 0 auto;
+}
+/* .drawer_box { 
+  width: 650rpx;  
+  overflow: hidden;  
+  position: fixed;  
+  top: 50%;  
+  left: 0;  
+  z-index: 1001;  
+  background: #FAFAFA;  
+  margin: -150px 50rpx 0 50rpx;  
+  border-radius: 3px;  
+}
+.drawer_content { 
+  height: 210px;  
+  overflow-y: scroll;
+}  */

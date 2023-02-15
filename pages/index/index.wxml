@@ -1,0 +1,52 @@
+<!--index.wxml-->
+<view class="head">
+  <van-row>
+    <van-col span="22">
+      <view style="display: flex;justify-content: space-evenly;">
+        <text>早上好，张三</text>
+      </view>
+    </van-col>
+    <van-col span="2">
+      <van-icon name="more-o" color="#fff" info="27"/>
+    </van-col>
+  </van-row>
+</view>
+<!-- 轮播图 -->
+<swiper indicator-active-color="green" indicator-dots="true" autoplay="true" interval="2000" indicator-color="white" style="height:250rpx;">
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../images/banner.jpg" mode="widthFix" bindload="setContainerHeight" class="auto-img"></image>
+  </swiper-item>
+</swiper>
+<!-- 头部功能列表 -->
+<view class="container">
+  <view class="body" wx:for="{{array}}" wx:key="index" data-name="{{item.name}}" bindtap="selectName">
+    <image src="{{item.img}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<!-- 功能主列表 -->
+<view class="containerList">
+  <view class="bodyList" wx:for="{{arrayList}}" wx:key="index" data-name="{{item.name}}" bindtap="selectName">
+    <image src="{{item.img}}"></image>
+    <text>{{item.name}}</text>
+  </view>
+</view>
+<!-- 点击弹窗 -->
+<view class="popup-box" wx:if="{{ showIndex }}" bindtap="closePopup"></view> 
+<view class="info-center" style="top:{{height*0.3}}px;height:{{height*0.4}}px;" wx:if="{{showIndex}}">
+  <view class="row-info">
+    {{ arrayName }}
+  </view>
+  <view class="functionArray">
+    <view class="functionList" wx:for="{{popoverList}}" wx:key="index" data-name="{{item.name}}" bindtap="selectName">
+      <image src="{{item.img}}"></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+</view>
